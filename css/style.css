@@ -1,0 +1,31 @@
+body {
+  background-color: gainsboro;
+  /* Use a system font, if none are available use an available sans-sarif */
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#reset-btn {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+}
+
+.sqr {
+  width: 30%;
+  aspect-ratio: 1/1;
+  border: 3px solid black;
+  font-size: 64px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
